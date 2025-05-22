@@ -1,0 +1,29 @@
+name: sRepoTab
+version: 1.0
+main: me.luis.repotab.RepoTab
+api-version: 1.16
+authors: [Luis Felliphe]
+depend: [PlaceholderAPI]
+softdepend: [LuckPerms]
+libraries:
+  - com.github.oshi:oshi-core:6.4.0
+
+
+
+commands:
+  repotab:
+    description: Recarrega o plugin
+    usage: /repotab reload
+    permission: repotab.admin
+
+  tabsuffix:
+    description: Adiciona ou remove sufixos personalizados na tablist
+    usage: /tabsuffix <add|remove> <sufixo>
+    permission: repotab.admin
+
+  database:
+    host: localhost
+    port: 3306
+    name: repotab
+    user: root
+    password: senha

@@ -1,0 +1,69 @@
+animations:
+  welcome_lines:
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#00FF00:#FFFF00>✦ Bem-vindo ao servidor ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FF00FF:#00FFFF>✦ Entre no nosso discord ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+    - "<gradient:#FFA500:#FF0000>✦ Divirta-se! ✦</gradient>"
+
+  server_info:
+    - "<gradient:#7289DA:#FFFFFF>discord.gg/servidor</gradient>"
+
+  border:
+    - "<gradient:#0000FF:#FF00FF>⮞▬▬▬▬▬▬▬▬▬▬▬▬▬▬ [✦ + ✧] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬⮜</gradient>"
+    - "<gradient:#0000FF:#FF00FF>⮞▬▬▬▬▬▬▬▬▬▬▬▬▬▬ [✧ + ✦] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬⮜</gradient>"
+
+  line:
+    - "<gradient:#CBD11D:#FDBB2D>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gradient>"
+
+header:
+  - "<animation:line>"
+  - "<animation:welcome_lines>"
+  - "&f&lPing: &a%player_ping% ms  &8|  &f&lHora: &e%server_time%"
+  - ""
+  - "<animation:border>"
+  - "<gradient:#8C0B0B:#FD1D1D>&l&o✦ RepoCraft ✦</gradient>"
+
+footer:
+  - "<animation:border>"
+  - ""
+  - "<animation:server_info>"
+  - "&6&lPlayers: &l&f%online%/%max_players%"
+  - "<animation:line>"
+
+settings:
+  update-ticks: 5
+
+database:
+  host: localhost
+  port: 3306
+  name: repotab
+  user: root
+  password: senha
+
+
